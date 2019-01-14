@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="chess.GameStatusController" x="283" y="39">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="chess.Mode"
+            endpointName="gameMode" kind="Simple"/>
+    </Class>
+    <Class name="chess.Mode" x="335" y="237">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="chess.Prolog" x="453" y="-22">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="chess.LeftControlPanel" x="-205" y="173">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="chess.ChessBoard"
+            endpointName="chessBoard" kind="Simple"/>
+        <Communication destinationClassName="chess.RightControlPanel"/>
+        <Communication destinationClassName="chess.GameInterface"/>
+    </Class>
+    <Class name="chess.RightControlPanel" x="-3" y="177">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="chess.ChessBoard"
+            endpointName="chessBoard" kind="Simple"/>
+        <Communication destinationClassName="chess.GameInterface"/>
+        <Communication destinationClassName="chess.ChessBoard"/>
+    </Class>
+    <Class name="chess.GameInterface" x="-135" y="30">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="true" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="chess.GameStatusController"
+            endpointName="controller" kind="Simple"/>
+        <Association destinationClassName="chess.LeftControlPanel"
+            endpointName="leftControlPanel" kind="Simple"/>
+        <Association destinationClassName="chess.ChessBoard"
+            endpointName="chessBoard" kind="Simple"/>
+        <Association destinationClassName="chess.RightControlPanel"
+            endpointName="rightControlPanel" kind="Simple"/>
+        <Communication destinationClassName="chess.GameStatusController"/>
+        <Communication destinationClassName="chess.Prolog"/>
+        <Communication destinationClassName="chess.LeftControlPanel"/>
+        <Communication destinationClassName="chess.RightControlPanel"/>
+    </Class>
+    <Class name="chess.ChessBoard" x="-91" y="307">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="chess.RightControlPanel"/>
+    </Class>
+</ClassDiagram>

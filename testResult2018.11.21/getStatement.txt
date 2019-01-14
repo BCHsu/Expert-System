@@ -1,0 +1,120 @@
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod1
+method owner name: ChessBoard
+package name: org.my.chess
+method select: testabc
+method name: emptyMethod3
+expression : ChessBoard
+identifier : testabc
+method name : testInRightControlPanel
+identifier name : testabc
+expression : c
+identifier : testabc
+method name : test1234567
+identifier name : testabc

@@ -1,0 +1,6 @@
+projectKey=ExpertSystem1.0
+serverUrl=http://localhost:9000
+serverVersion=6.7.2.37468
+dashboardUrl=http://localhost:9000/dashboard/index/ExpertSystem1.0
+ceTaskId=AWg1nB9sEC3VdN378l6R
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWg1nB9sEC3VdN378l6R
